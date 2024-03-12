@@ -1,3 +1,4 @@
+from random_multi import randomMulti
 full_name = input ("What is your name? ")
 # this is how you print varibles inside a string using f-string
 print (f"your name is {full_name}")
@@ -43,3 +44,7 @@ print(dict_datas)
 
 bool_value = True
 print(f"this is a boolean\nvariable:bool_value\nvalue:{bool_value}")
+
+
+num_final =randomMulti(40, 10)
+print(num_final)
