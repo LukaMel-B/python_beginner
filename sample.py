@@ -39,3 +39,7 @@ dict_datas.update({"siblings":"Hani and Emna"})
 print(dict_datas)
 dict_datas.pop("marital_status")
 print(dict_datas)
+
+
+bool_value = True
+print(f"this is a boolean\nvariable:bool_value\nvalue:{bool_value}")
